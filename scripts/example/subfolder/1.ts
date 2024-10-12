@@ -1,4 +1,4 @@
-//load global modules and configs
+//load env modules and configs
 import "autor"
 
 //use global module

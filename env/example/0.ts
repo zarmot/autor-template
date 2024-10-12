@@ -1,4 +1,5 @@
-console.log(`Global Module "Example" load.`)
+//"env/**/0.ts" will be automatically loaded
+console.log(`Env Module "Example" load.`)
 
 //cfg
 declare global {
@@ -19,11 +20,12 @@ const MOD = {
     show_msg,
 }
 global.Example = MOD
+
 function show_msg() {
     console.log(`CFG.Example.msg: ${MCFG.msg}`)
 }
 
-//init
+//optional init func
 export async function init() {
-    console.log(`Global Module "Example" init().`)
+    console.log(`Env Module "Example" init().`)
 }

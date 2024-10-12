@@ -3,7 +3,7 @@ console.log(`script config load.`)
 
 //modify config
 const { Example } = CFG
-Example.msg = "My msg!"
+Example.msg = "script configed msg!"
 
 //optional init func
 export async function init() {
