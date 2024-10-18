@@ -7,7 +7,7 @@
             "name": "Launch",
             "console": "internalConsole",
             "program": "${workspaceFolder}/${relativeFile}",
-            "outFiles": ["${workspaceFolder}/.built/${relativeFileDirname}/${fileBasenameNoExtension}.js"],
+            "outFiles": ["${workspaceFolder}/.built/**/*.js"],
             "args": [
                 "${relativeFile}",
             ],
